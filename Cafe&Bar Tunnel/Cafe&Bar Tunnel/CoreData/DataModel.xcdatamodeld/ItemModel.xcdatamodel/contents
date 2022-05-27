@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CatalogGroups" representedClassName="CatalogGroups" syncable="YES" codeGenerationType="class">
+        <attribute name="catalogGroups" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[CatalogGroupModel]"/>
+    </entity>
+    <entity name="CatalogItems" representedClassName="CatalogItems" syncable="YES" codeGenerationType="class">
+        <attribute name="catalogItems" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[CatalogItemModel]"/>
+    </entity>
+    <entity name="Credentials" representedClassName="Credentials" syncable="YES" codeGenerationType="class">
+        <attribute name="password" attributeType="String"/>
+    </entity>
+    <entity name="PurchasedItems" representedClassName="PurchasedItems" syncable="YES" codeGenerationType="class">
+        <attribute name="purchasedItem" optional="YES" attributeType="Transformable" customClassName="[CheckoutItemModel]"/>
+    </entity>
+    <elements>
+        <element name="CatalogGroups" positionX="-18" positionY="45" width="128" height="44"/>
+        <element name="CatalogItems" positionX="-27" positionY="27" width="128" height="44"/>
+        <element name="Credentials" positionX="-36" positionY="9" width="128" height="14"/>
+        <element name="PurchasedItems" positionX="-27" positionY="36" width="128" height="44"/>
+    </elements>
+</model>
